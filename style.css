@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #080909;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+  
+  .top-left h1 {
+    font-size: 3em;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .logo {
+    width: 1000px;
+    max-width: 90%;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+  }
+  
+  .instagram-link {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    gap: 10px;
+    font-size: 1.2em;
+  }
+  
+  .instagram-link:hover {
+    opacity: 0.8;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+  
